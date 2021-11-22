@@ -1,17 +1,33 @@
+body {
+  margin: 0;
+}
+
+input[type="text"],
+select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #ccc;
+  border-radius: 6.1px;
+  box-sizing: border-box;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(218, 218, 218);
+  background-color: #f1f1f100;
 }
 
 li {
-  float: left;
+  float: right;
+  height: 64px;
+  margin-right: 20px;
 }
 
 li a {
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -19,9 +35,86 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: rgba(17, 17, 17, 0.32);
 }
-
+.about {
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 29.125px;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+  color: rgba(0, 0, 0, 0.7);
+}
 .active {
   background-color: #04aa6d;
+}
+.card {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-title {
+  font-family: "Bebas Neue", cursive;
+}
+.feedback {
+  width: 50%;
+  margin: auto;
+  padding: 32px;
+}
+.isi {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+  color: rgba(26, 26, 26, 0.7);
+}
+.kepala {
+  overflow-x: hidden;
+  background-image: url(http://localhost/task_html/img/headshot.jpg);
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.label {
+  color: rgb(0, 0, 0);
+}
+.logo {
+  float: left;
+}
+.mainlogo {
+  padding: 8px 32px;
+  width: 64px;
+  height: 64px;
+}
+.menu {
+  float: right;
+  padding: 8px 32px;
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0);
+  display: inline;
+  position: fixed;
+  top: 8;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.rounded {
+  border-radius: 10px;
+}
+.sitetitle {
+  font-family: "Bebas Neue", cursive;
+  font-size: 29.125px;
+  margin-top: 20%;
+  position: relative;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-light {
+  color: aliceblue;
 }
