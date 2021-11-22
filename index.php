@@ -24,7 +24,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://rahman.epizy.com">
+                    <a href="https://www.instagram.com/euisgn/">
                         <div class="label  text-light ">About Me</div>
                     </a>
                 </li>
@@ -32,7 +32,7 @@
         </div><br><br><br><br>
         <div id="siteTitle" class="sitetitle text-light text-center">
             <h1 class="siteTitle "><a href="/"></a>Rahman Amarullah Siregar</h1>
-            <h5 class="subTitle"><a href="/"></a>Institut Teknologi Sumatera</h5>
+            <h5 class="subTitle"><a href="/"></a>Teknik informatika | Institut Teknologi Sumatera</h5>
         </div>
     </header>
     <div class="artikel">
@@ -56,7 +56,7 @@
         </form>
     </section>
     <footer>
-        <p>Copyright &copy; 2021 <b>Rahman Amarullah</b></p>
+        <p class="text-center">Copyright &copy; 2021 <b>Rahman Amarullah</b></p>
     </footer>
 </body>
 
