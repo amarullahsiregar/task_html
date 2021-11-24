@@ -51,7 +51,7 @@
             <label for="email">e-Mail : </label><br>
             <input type="text" id="email" name="email" placeholder="Masukkan e-Mail Anda"><br>
             <label for="fbcontent">Feedback anda tentang saya : </label><br>
-            <input type="text" id="fbcontent" name="fbcontent" placeholder="masukkan tanggapan anda"><br>
+            <textarea class="fbcontent" type="text" id="fbcontent" name="fbcontent" placeholder="masukkan tanggapan anda"></textarea> <br>
             <input type="submit" value="Kirim" name="kirim" class="button">
         </form>
     </section>
