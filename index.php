@@ -11,9 +11,7 @@
 
 <body>
     <header class="kepala">
-        <figure>
-        </figure>
-        <div class="navbar">
+        <div class="navbar" id="myNavbar">
             <a class="logo" href="#">
                 <img class="mainlogo" src="img/main-logo-light.png" alt="Home">
             </a>
@@ -58,6 +56,7 @@
     <footer>
         <p class="text-center">Copyright &copy; 2021 <b>Rahman Amarullah</b></p>
     </footer>
+    <script src="script/jsku.js"></script>
 </body>
 
 </html>

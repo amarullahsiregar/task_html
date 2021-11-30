@@ -120,6 +120,11 @@ li a:hover:not(.active) {
   left: 0;
   z-index: 1030;
 }
+.add-bg {
+  background: #fff !important;
+  box-shadow: 2px 2px 4px #aaa;
+  color: rgb(0, 0, 0) !important;
+}
 .rounded {
   border-radius: 10px;
 }
