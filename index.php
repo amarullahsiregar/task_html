@@ -1,3 +1,6 @@
+<?php
+include('bootstrap.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,36 +15,31 @@
 <body>
     <header class="kepala">
         <div class="navbar" id="myNavbar">
-            <a class="logo" href="#">
-                <img class="mainlogo" src="img/main-logo-light.png" alt="Home">
+            <a class="logo whitelogo " id="mainlogo"  href="#">
+                <!-- <img id="mainlogo" class="whitelogo" alt="Home"> -->
             </a>
-            <ul class="menu ">
+            <ul class="menu">
                 <li>
-                    <a href="https://www.linkedin.com/in/rahman-amarullah-siregar-8b47a8179/">
-                        <div class="label  text-light ">LinkedIn</div>
+                    <a class="button" id="linkedin" href="https://www.linkedin.com/in/rahman-amarullah-siregar-8b47a8179/" >
+                        LinkedIn
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/euisgn/">
-                        <div class="label  text-light ">About Me</div>
+                    <!-- <a class="button" id="aboutme" href="https://www.instagram.com/euisgn/"> -->
+                    <a class="button" id="aboutme" href="<?php echo BASE_URL; ?>#about">
+                                About Me
                     </a>
                 </li>
             </ul>
         </div><br><br><br><br>
         <div id="siteTitle" class="sitetitle text-light text-center">
-            <h1 class="siteTitle "><a href="/"></a>Rahman Amarullah Siregar</h1>
+            <h1 class="siteTitle ">Hello,</h1>
+            <h1 class="siteTitle ">I'm Amarullah Siregar</h1>
             <h5 class="subTitle"><a href="/"></a>Teknik informatika | Institut Teknologi Sumatera</h5>
         </div>
     </header>
-    <div class="artikel">
-        <h1 class="text-center about">About Rahman</h1>
-        <p class="text-center isi">
-            Rahman Amarullah Siregar adalah seorang Mahasiswa Informatika<br>
-            di Institut Teknologi Sumatera, Rahman merupakan seorang Batak<br>
-            tulen yang berasal dari tanah Tapanuli.
-        </p>
-    </div>
-    <section>
+    <?php include('about_me/about_me.php');?>
+    <section id="about">
         <form class="feedback card rounded" method="POST" action="postfeedback.php">
             <h1 class="card-title text-center">Feedback Form</h1>
             <label for="nama">Nama Anda : </label><br>
@@ -53,9 +51,7 @@
             <input type="submit" value="Kirim" name="kirim" class="button">
         </form>
     </section>
-    <footer>
-        <p class="text-center">Copyright &copy; 2021 <b>Rahman Amarullah</b></p>
-    </footer>
+    <?php include('footer.php');?>
     <script src="script/jsku.js"></script>
 </body>
 

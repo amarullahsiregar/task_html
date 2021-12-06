@@ -1,5 +1,39 @@
+table {
+  table-layout: fixed;
+}
+td {
+  border: 1px solid rgb(255, 255, 255);
+}
+a {
+  text-decoration: none;
+}
+a.button {
+  border-top: 3px solid rgba(255, 255, 255, 0);
+  border-left: 0;
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
+  border-right: 0;
+  border-radius: 0;
+  padding: 12px 12px;
+  margin-right: 20px;
+}
+a.button:hover {
+  border-top: 3px solid #fff;
+  border-left: 0;
+  border-bottom: 3px solid #fff;
+  border-right: 0;
+  border-radius: 0;
+}
+a.label {
+  border-top: 3px solid rgba(0, 0, 0, 0);
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+}
+a.label:hover {
+  border-top: 3px solid rgb(0, 0, 0);
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
 body {
   margin: 0;
+  font-family: Calibri, Arial, Helvetica, sans-serif;
 }
 input[type="text"],
 select {
@@ -24,7 +58,6 @@ li {
   height: 64px;
   margin-right: 20px;
 }
-
 li a {
   display: inline-block;
   color: white;
@@ -34,22 +67,31 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: rgba(17, 17, 17, 0.32);
+  background-color: rgba(17, 17, 17, 0);
 }
 .about {
+  /* box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19); */
+  color: rgba(0, 0, 0, 0.7);
   font-weight: 400;
   font-style: normal;
   font-weight: bold;
-  font-size: 29.125px;
   letter-spacing: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
   line-height: 1.6em;
-  color: rgba(0, 0, 0, 0.7);
+  padding-top: 184px;
+  padding-bottom: 184px;
 }
 .active {
   background-color: #04aa6d;
 }
+.add-bg {
+  background: #fff !important;
+  box-shadow: 2px 2px 4px #aaa;
+  color: rgb(0, 0, 0) !important;
+}
 .button {
-  font-family: "Bebas Neue", cursive;
+  /* font-family: "Bebas Neue", cursive; */
   font-size: 18px;
   width: 100%;
   padding: 12px 20px;
@@ -57,7 +99,7 @@ li a:hover:not(.active) {
   border-radius: 6.1px;
 }
 .button:hover {
-  background-color: rgb(243, 172, 144);
+  background-color: #eba487;
   border: 3px solid #fff;
   border-radius: 6.1px;
 }
@@ -65,7 +107,7 @@ li a:hover:not(.active) {
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card-title {
-  font-family: "Bebas Neue", cursive;
+  font-family: inherit;
 }
 .feedback {
   width: 50%;
@@ -77,14 +119,18 @@ li a:hover:not(.active) {
   max-width: 98.5%;
   min-width: 50%;
 }
+.imgabout {
+  border-radius: 2%;
+}
 .isi {
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(26, 26, 26, 0.7);
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 29.125px;
   letter-spacing: 0px;
   line-height: 1.6em;
-  color: rgba(26, 26, 26, 0.7);
+  max-width: 60%;
+  margin-left: 30%;
 }
 .kepala {
   overflow-x: hidden;
@@ -101,9 +147,18 @@ li a:hover:not(.active) {
 }
 .logo {
   float: left;
+  min-width: 100px;
+  min-height: 100px;
 }
-.mainlogo {
-  padding: 8px 32px;
+.whitelogo {
+  background-image: url(http://localhost/task_html/img/main-logo-light.png);
+  margin: 10px 0 10px 50px;
+  height: 64px;
+  width: 64px;
+}
+.blacklogo {
+  background-image: url(http://localhost/task_html/img/main-logo.png);
+  margin: 10px 0 10px 50px;
   width: 64px;
   height: 64px;
 }
@@ -115,28 +170,52 @@ li a:hover:not(.active) {
   background-color: rgba(255, 255, 255, 0);
   display: inline;
   position: fixed;
-  top: 8;
+  top: 0px;
   right: 0;
-  left: 0;
+  left: 0px;
   z-index: 1030;
-}
-.add-bg {
-  background: #fff !important;
-  box-shadow: 2px 2px 4px #aaa;
-  color: rgb(0, 0, 0) !important;
 }
 .rounded {
   border-radius: 10px;
 }
 .sitetitle {
-  font-family: "Bebas Neue", cursive;
   font-size: 29.125px;
-  margin-top: 20%;
+  margin-top: 15%;
   position: relative;
+}
+.tbl_btn {
+  margin-right: 10%;
+  float: right;
+}
+.tbl1 {
+  max-height: 20%;
 }
 .text-center {
   text-align: center !important;
 }
+.text-justify {
+  text-align: justify !important;
+}
 .text-light {
   color: aliceblue;
+}
+.btn2 {
+  color: #87ceeb;
+  background-color: rgb(0, 0, 0);
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-bottom: 3px solid #eba487 !important;
+  border-right: 3px solid #eba487 !important;
+  border-radius: 10px !important;
+  padding: 5px 30px !important;
+}
+.btn2:hover {
+  color: #253941;
+  background-color: #eba487;
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-bottom: 3px solid rgb(0, 0, 0) !important;
+  border-right: 3px solid rgb(0, 0, 0) !important;
+  border-radius: 10px !important;
+  padding: 5px 30px !important;
 }
