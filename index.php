@@ -9,25 +9,30 @@ include('bootstrap.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rahman A.S.</title>
+    <link rel="stylesheet" href="css/nilai.css" />
     <link rel="stylesheet" href="css/gaya.css" />
 </head>
 
 <body>
     <header class="kepala">
         <div class="navbar" id="myNavbar">
-            <a class="logo whitelogo " id="mainlogo"  href="#">
+            <a class="logo whitelogo " id="mainlogo" href="#">
                 <!-- <img id="mainlogo" class="whitelogo" alt="Home"> -->
             </a>
             <ul class="menu">
                 <li>
-                    <a class="button" id="linkedin" href="https://www.linkedin.com/in/rahman-amarullah-siregar-8b47a8179/" >
+                    <a class="button" id="linkedin" href="https://www.linkedin.com/in/rahman-amarullah-siregar-8b47a8179/">
                         LinkedIn
                     </a>
                 </li>
                 <li>
-                    <!-- <a class="button" id="aboutme" href="https://www.instagram.com/euisgn/"> -->
+                    <a class="button" id="myworks" href="<?php echo BASE_URL; ?>#about">
+                        My Works
+                    </a>
+                </li>
+                <li>
                     <a class="button" id="aboutme" href="<?php echo BASE_URL; ?>#about">
-                                About Me
+                        About Me
                     </a>
                 </li>
             </ul>
@@ -38,8 +43,9 @@ include('bootstrap.php');
             <h5 class="subTitle"><a href="/"></a>Teknik informatika | Institut Teknologi Sumatera</h5>
         </div>
     </header>
-    <?php include('about_me/about_me.php');?>
-    <section id="about">
+    <?php include('about_me/about_me.php'); ?>
+    <?php include_once('my_project/my_project.php') ?>
+    <section id="feedback">
         <form class="feedback card rounded" method="POST" action="postfeedback.php">
             <h1 class="card-title text-center">Feedback Form</h1>
             <label for="nama">Nama Anda : </label><br>
@@ -51,7 +57,7 @@ include('bootstrap.php');
             <input type="submit" value="Kirim" name="kirim" class="button">
         </form>
     </section>
-    <?php include('footer.php');?>
+    <?php include('footer.php'); ?>
     <script src="script/jsku.js"></script>
 </body>
 

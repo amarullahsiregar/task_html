@@ -1,9 +1,6 @@
 table {
   table-layout: fixed;
 }
-td {
-  border: 1px solid rgb(255, 255, 255);
-}
 a {
   text-decoration: none;
 }
@@ -17,9 +14,9 @@ a.button {
   margin-right: 20px;
 }
 a.button:hover {
-  border-top: 3px solid #fff;
+  border-top: 3px solid var(--warna2);
   border-left: 0;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid var(--warna2);
   border-right: 0;
   border-radius: 0;
 }
@@ -28,8 +25,8 @@ a.label {
   border-bottom: 3px solid rgba(0, 0, 0, 0);
 }
 a.label:hover {
-  border-top: 3px solid rgb(0, 0, 0);
-  border-bottom: 3px solid rgb(0, 0, 0);
+  border-top: 3px solid var(--warna1);
+  border-bottom: 3px solid var(--warna1);
 }
 body {
   margin: 0;
@@ -60,7 +57,8 @@ li {
 }
 li a {
   display: inline-block;
-  color: white;
+  color: #a5d2f3;
+  font-weight: bold;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -90,8 +88,27 @@ li a:hover:not(.active) {
   box-shadow: 2px 2px 4px #aaa;
   color: rgb(0, 0, 0) !important;
 }
+.btn2 {
+  color: var(--warna2);
+  background-color: rgb(0, 0, 0);
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-bottom: 3px solid var(--warna2) !important;
+  border-right: 3px solid var(--warna2) !important;
+  border-radius: 10px !important;
+  padding: 5px 30px !important;
+}
+.btn2:hover {
+  color: #000;
+  background-color: var(--warna2);
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-bottom: 3px solid rgb(0, 0, 0) !important;
+  border-right: 3px solid rgb(0, 0, 0) !important;
+  border-radius: 10px !important;
+  padding: 5px 30px !important;
+}
 .button {
-  /* font-family: "Bebas Neue", cursive; */
   font-size: 18px;
   width: 100%;
   padding: 12px 20px;
@@ -99,7 +116,7 @@ li a:hover:not(.active) {
   border-radius: 6.1px;
 }
 .button:hover {
-  background-color: #eba487;
+  background-color: var(--warna2);
   border: 3px solid #fff;
   border-radius: 6.1px;
 }
@@ -143,24 +160,21 @@ li a:hover:not(.active) {
   background-size: cover;
 }
 .label {
-  color: rgb(0, 0, 0);
+  color: var(--warna1);
+  font-weight: bold;
 }
 .logo {
   float: left;
-  min-width: 100px;
-  min-height: 100px;
+  min-width: 64px;
+  min-height: 64px;
 }
 .whitelogo {
   background-image: url(http://localhost/task_html/img/main-logo-light.png);
   margin: 10px 0 10px 50px;
-  height: 64px;
-  width: 64px;
 }
 .blacklogo {
   background-image: url(http://localhost/task_html/img/main-logo.png);
   margin: 10px 0 10px 50px;
-  width: 64px;
-  height: 64px;
 }
 .menu {
   float: right;
@@ -197,25 +211,6 @@ li a:hover:not(.active) {
   text-align: justify !important;
 }
 .text-light {
-  color: aliceblue;
-}
-.btn2 {
-  color: #87ceeb;
-  background-color: rgb(0, 0, 0);
-  border-top: 0 !important;
-  border-left: 0 !important;
-  border-bottom: 3px solid #eba487 !important;
-  border-right: 3px solid #eba487 !important;
-  border-radius: 10px !important;
-  padding: 5px 30px !important;
-}
-.btn2:hover {
-  color: #253941;
-  background-color: #eba487;
-  border-top: 0 !important;
-  border-left: 0 !important;
-  border-bottom: 3px solid rgb(0, 0, 0) !important;
-  border-right: 3px solid rgb(0, 0, 0) !important;
-  border-radius: 10px !important;
-  padding: 5px 30px !important;
+  /* color: var(--warna1); */
+  color: var(--warna2);
 }

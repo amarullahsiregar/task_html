@@ -1,0 +1,44 @@
+/* td {
+  border: 1px solid rgb(0, 0, 0);
+}
+th {
+  border: 1px solid rgb(0, 0, 0);
+} */
+#project {
+  background-color: var(--warna3);
+  border-radius: 20px;
+  height: 50%;
+  width: 98%;
+  margin: auto;
+  padding: 32px 64px;
+}
+.project-1 {
+  background-color: var(--warna4);
+  border-radius: 50px;
+}
+.project-2 {
+  background-color: var(--warna4);
+  border-radius: 50px;
+}
+.project-3 {
+  background-color: var(--warna4);
+  border-radius: 50px;
+}
+.kotak-1 {
+  height: var(--panjang1);
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+.kotak-2 {
+  height: var(--panjang2);
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.table-title {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 47.125px;
+  /* padding-right: 40px; */
+  /* padding-bottom: 40px; */
+}
