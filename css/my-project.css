@@ -1,9 +1,9 @@
 /* td {
   border: 1px solid rgb(0, 0, 0);
-}
+} */
 th {
   border: 1px solid rgb(0, 0, 0);
-} */
+}
 #project {
   background-color: var(--warna3);
   border-radius: 20px;
@@ -12,6 +12,16 @@ th {
   margin: auto;
   padding: 32px 64px;
 }
+.kotak-1 {
+  margin-right: 40px;
+  margin-bottom: 40px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.kotak-2 {
+  margin-right: 40px;
+  margin-bottom: 40px;
+  border: 1px solid rgb(0, 0, 0);
+}
 .project-1 {
   background-color: var(--warna4);
   border-radius: 50px;
@@ -19,20 +29,13 @@ th {
 .project-2 {
   background-color: var(--warna4);
   border-radius: 50px;
+  height: 381px !important;
+  /* padding: 40px; */
+  /* position: absolute; */
 }
 .project-3 {
   background-color: var(--warna4);
   border-radius: 50px;
-}
-.kotak-1 {
-  height: var(--panjang1);
-  margin-right: 40px;
-  margin-bottom: 40px;
-}
-.kotak-2 {
-  height: var(--panjang2);
-  margin-right: 40px;
-  margin-bottom: 40px;
 }
 
 .table-title {

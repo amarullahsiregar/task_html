@@ -126,6 +126,12 @@ li a:hover:not(.active) {
 .card-title {
   font-family: inherit;
 }
+.center {
+  margin: auto;
+  width: 60%;
+  /* border: 3px solid #73ad21; */
+  padding: 10px;
+}
 .feedback {
   width: 50%;
   margin: auto;

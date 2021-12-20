@@ -1,13 +1,13 @@
-<section style="margin-bottom: 5%; margin-top: 1%;">
+<section id="myproject" style="margin-bottom: 5%; margin-top: 1%;">
     <link rel="stylesheet" href="css/my-project.css" />
     <table id="project">
         <tr>
+            <!-- kotak kiri -->
             <td>
-                <!-- kotak kiri -->
                 <div class="sub-table" style="width: 100%;margin-bottom: 40px;margin-left: 70px;">
                     <div">
                         <div class=" table-title " style="font-weight: bold;">
-                            My Completed Project
+                            My Recent Project
                         </div>
                         <div style="font-size: 18px;  color: rgba(26, 26, 26, 0.7);">
                             <p>
@@ -17,28 +17,24 @@
                         </div>
                 </div>
                 </div>
-                <div style="width: 100%;">
-                    <div class="">
-                        <div class="project-2 kotak-1 ">Project 2</div>
+                <div>
+                    <div class="kotak-1 ">
+                        <img class="project-2 center" src="<?php echo BASE_URL ?>/img/project-1.svg" alt="Project 2">
                     </div>
                 </div>
             </td>
+
+            <!-- kotak kanan -->
             <td>
-                <!-- kotak kanan -->
-                <div style="width: 100%;">
-                    <div class="">
-                        <div class="project-1 kotak-1">
-                            <h1>Project 1</h1>
-                        </div>
+                <div>
+                    <div class="kotak-1 " style="margin-bottom: 40px;">
+                        <img class="project-1 center" src="<?php echo BASE_URL ?>/img/project-1.svg" alt="Project 2">
                     </div>
                 </div>
                 <div style="width: 100%;">
-                    <div class="">
-                        <div class="project-3 kotak-2">
-                            Project 3
-                        </div>
+                    <div class="kotak-2 ">
+                        <img class="project-3 center" src="<?php echo BASE_URL ?>/img/project-1.svg" alt="Project 2">
                     </div>
-
                 </div>
             </td>
         </tr>
