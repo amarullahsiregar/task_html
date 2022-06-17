@@ -4,7 +4,7 @@
         <tr>
             <!-- kotak kiri -->
             <td>
-                <div class="sub-table" style="width: 100%;margin-bottom: 40px;margin-left: 70px;">
+                <div class="sub-table" style="width: 90%;margin-bottom: 40px;margin-left: 10%;">
                     <div">
                         <div class=" table-title " style="font-weight: bold;">
                             My Recent Project
@@ -15,25 +15,38 @@
                                 as you can see, I work with different styles.
                             </p>
                         </div>
-                </div>
+                    </div>
                 </div>
                 <div>
-                    <div class="kotak-1 ">
-                        <img class="project-2 center" src="<?php echo BASE_URL ?>/img/project-1.svg" alt="Project 2">
+                    <div class="project-2 kotak-1 ">
+                        <img class="project-2-cont center" src="<?php echo BASE_URL ?>/img/project-1.svg" alt="Project 2">
+                        <text class="project-2-cont " style="">
+                            <h1>Mister Geprek Unila </h1> <br>
+                            Merupakan proyek yang saya kerjakan bersama tim dalam memenuhi syarat lulus mata kuliah pengembangan perangkat lunak selama 3 bulan.
+                        </text>
                     </div>
                 </div>
             </td>
+            <!-- / kotak kiri -->
 
             <!-- kotak kanan -->
             <td>
                 <div>
-                    <div class="kotak-1 " style="margin-bottom: 40px;">
-                        <img class="project-1 center" src="<?php echo BASE_URL ?>/img/project-1.svg" alt="Project 2">
+                    <div class="project-1 kotak-1 ">
+                        <img class="project-1-cont center" src="<?php echo BASE_URL ?>/img/project-1.svg" alt="Project 1">
+                        <text class="project-1-cont " style="">
+                            <h1>Mister Geprek Unila </h1> <br>
+                            Merupakan proyek yang saya kerjakan bersama tim dalam memenuhi syarat lulus mata kuliah pengembangan perangkat lunak selama 3 bulan.
+                        </text>
                     </div>
                 </div>
-                <div style="width: 100%;">
-                    <div class="kotak-2 ">
-                        <img class="project-3 center" src="<?php echo BASE_URL ?>/img/project-1.svg" alt="Project 2">
+                <div>
+                    <div class="project-3 kotak-1 ">
+                        <img class="project-3-cont center" src="<?php echo BASE_URL ?>/img/project-1.svg" alt="Project 3">
+                        <text class="project-3-cont " style="">
+                            <h1>Mister Geprek Unila </h1> <br>
+                            Merupakan proyek yang saya kerjakan bersama tim dalam memenuhi syarat lulus mata kuliah pengembangan perangkat lunak selama 3 bulan.
+                        </text>
                     </div>
                 </div>
             </td>

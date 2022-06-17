@@ -11,13 +11,13 @@ include('bootstrap.php');
     <title>Rahman A.S.</title>
     <link rel="stylesheet" href="css/nilai.css" />
     <link rel="stylesheet" href="css/gaya.css" />
+    <link rel="stylesheet" href="css/ponsel.css" />
 </head>
 
 <body>
     <header class="kepala">
         <div class="navbar" id="myNavbar">
             <a class="logo whitelogo " id="mainlogo" href="#">
-                <!-- <img id="mainlogo" class="whitelogo" alt="Home"> -->
             </a>
             <ul class="menu">
                 <li>

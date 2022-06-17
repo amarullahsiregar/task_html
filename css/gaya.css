@@ -157,7 +157,7 @@ li a:hover:not(.active) {
 }
 .kepala {
   overflow-x: hidden;
-  background-image: url(http://localhost/task_html/img/headshot.jpg);
+  background-image: url(/task_html/img/headshot.jpg);
   height: 100vh;
   width: 100%;
   background-attachment: fixed;

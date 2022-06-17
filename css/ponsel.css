@@ -1,0 +1,36 @@
+@media only screen and (max-width: 960px) {
+  a.button {
+    margin-right: -24px;
+  }
+  .logo {
+    float: left;
+    max-width: 20px;
+    max-height: 20px;
+    width: 10px;
+    margin-left: 10px;
+  }
+  .button {
+    font-size: 15px;
+  }
+  .kepala {
+    background-image: url("../img/headshot3.jpg") !important;
+  }
+  .menu {
+    padding: 8px 20px;
+  }
+  .sitetitle {
+    font-size: 15px;
+    margin-top: 20%;
+    margin-left: 25px;
+    text-align: left !important;
+  }
+  .text-light {
+    color: #3f425e;
+  }
+  .about {
+    padding-top: 10%;
+  }
+  .table-title {
+    font-size: 15px;
+  }
+}

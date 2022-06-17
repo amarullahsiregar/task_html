@@ -17,7 +17,6 @@
       </a>
     </li>
     <li>
-      <!-- <a class="button" id="aboutme" href="https://www.instagram.com/euisgn/"> -->
       <a class="button" id="aboutme" href="<?php echo BASE_URL; ?>#about">
         About Me
       </a>
