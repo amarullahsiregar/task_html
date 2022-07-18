@@ -19,10 +19,10 @@
                 </div>
                 <div>
                     <div class="project-2 kotak-1 ">
-                        <img class="project-2-cont center" src="<?php echo BASE_URL ?>/img/project-1.svg" alt="Project 2">
+                        <img class="project-2-cont center" src="<?php echo BASE_URL ?>/img/project-2.png" alt="Project 2">
                         <text class="project-2-cont " style="">
-                            <h1>Mister Geprek Unila </h1> <br>
-                            Merupakan proyek yang saya kerjakan bersama tim dalam memenuhi syarat lulus mata kuliah pengembangan perangkat lunak selama 3 bulan.
+                            <h1>Web Profile PT DLLN </h1> <br>
+                            Merupakan proyek yang saya kerjakan saat intern (Kerja Praktik) di PT. Dharma Lautan Logistik Nusantara, yang merupakan anak usaha dari PT. Djakarta Lloyd (Persero)
                         </text>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                         <img class="project-1-cont center" src="<?php echo BASE_URL ?>/img/project-1.svg" alt="Project 1">
                         <text class="project-1-cont " style="">
                             <h1>Mister Geprek Unila </h1> <br>
-                            Merupakan proyek yang saya kerjakan bersama tim dalam memenuhi syarat lulus mata kuliah pengembangan perangkat lunak selama 3 bulan.
+                            Merupakan proyek yang saya kerjakan bersama tim dalam memenuhi syarat lulus mata kuliah Proyek Perangkat Lunak selama 3 bulan.
                         </text>
                     </div>
                 </div>
